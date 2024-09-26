@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Em busca da Cidade Perdida</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-inicial">
+            <img src="cenario-passo0.png" alt="">
+            <p> Em um certo dia, eu, enquanto estava lendo alguns livros na biblioteca, descobri dentro de um deles uma
+                carta antiga.
+                Então eu decidi lê-la. Ela dizia que havia uma cidade escondida e que tinha diversos tesouros e segredos
+                e que foi denominada de Cidade Perdida.
+                Logo, eu decidi seguir as pistas que tinha na carta.</p>
+            <button class="btn-proximo" data-proximo="1">São Paulo</button>
+            <button class="btn-proximo" data-proximo="2">Bahia</button>
+
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Na manhã seguinte você resolveu viajar até São Paulo, na cidade de Santos, indo em direção ao porto, a
+                fim de
+                encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Entrar o porto para procurar a pista</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você chegou na Bahia e foi visitar o estado. De repente, você encontrou uma placa escondida que tinha um
+                buraco no mesmo formato da carta. Então, após colocada, foi revelada que a próxima pista estaria em
+                Salvador, ou na divisa com Minas Gerais.
+                Qual caminho você prefere?</p>
+            <button class="btn-proximo" data-proximo="5">Viajar para Salvador</button>
+            <button class="btn-proximo" data-proximo="6">Ir para a divisa</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
